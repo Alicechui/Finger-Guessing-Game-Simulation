@@ -13,6 +13,7 @@ To run the simulation and generate the histogram, follow the instructions below.
 
 - Python 3.x
 - matplotlib library
+- numpy library
 
 ### Installation
 
@@ -36,7 +37,7 @@ To run the simulation and generate the histogram, follow the instructions below.
    ```
 ### Usage
 
-1. Open `hw5.py` and implement the required functions: `get_move()`, `get_outcome(p1_move, p2_move)`, `play_once()`, `calc_winnings(player, winner, fingers)`, `play_multiple(num_simulations)`, and `simulate()`. Refer to the function documentation for details on their parameters and return values.
+1. Open `game.py` and implement the required functions: `get_move()`, `get_outcome(p1_move, p2_move)`, `play_once()`, `calc_winnings(player, winner, fingers)`, `play_multiple(num_simulations)`, and `simulate()`. Refer to the function documentation for details on their parameters and return values.
 
 2. Run the simulation:
    ```
