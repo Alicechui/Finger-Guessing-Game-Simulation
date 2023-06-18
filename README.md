@@ -18,38 +18,35 @@ To run the simulation and generate the histogram, follow the instructions below.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/finger-game.git
+   git clone https://github.com/Alicechui/Finger-Guessing-Game-Simulation
+
    ```
    
 2. Change into the project directory:
    ```
-   cd finger-game
+   cd Finger-Guessing-Game-Simulation
    ```
 
 3. Install the required dependencies:
    ```
    pip install matplotlib
    ```
-
+   ```
+   pip install numpy
+   ```
 ### Usage
 
 1. Open `hw5.py` and implement the required functions: `get_move()`, `get_outcome(p1_move, p2_move)`, `play_once()`, `calc_winnings(player, winner, fingers)`, `play_multiple(num_simulations)`, and `simulate()`. Refer to the function documentation for details on their parameters and return values.
 
 2. Run the simulation:
    ```
-   python hw5.py
+   python game.py
    ```
 
 3. The program will simulate 10,000 games and display the resulting histogram, showcasing the distribution of Player 1's winnings.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the project's GitHub repository.
 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Acknowledgements
-
-The starter code and tests for this project were provided as part of a previous homework assignment. Special thanks to the course instructor and teaching staff for providing the materials.
