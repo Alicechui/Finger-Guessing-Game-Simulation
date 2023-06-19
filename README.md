@@ -17,7 +17,7 @@ To run the simulation and generate the histogram, follow the instructions below.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Alicechui/Finger-Guessing-Game-Simulation
+   git clone https://github.com/Alicechui/Finger-Guessing-Game-Simulation.git
 
    ```
    
